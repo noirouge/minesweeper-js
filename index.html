@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="col">
+        <div class="row center-between">
+          <div class="col center-v">TIME <div class="counter-time" id="counter-time">100</div></div>
+          <div class="col center-v">BOMBS <div class="counter-bomb" id="counter-bomb" >0</div> </div>
+        </div>
+        <div class="container" id="container">
+          <div class="row">
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+          </div>
+          <div class="row">
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+            <div class="mine-box"></div>
+          </div>
+        </div>
+        <div class="row center-h"><button class="btn-new" id="configuration">NEW</button></div>
+      </div>
+     <div class="config-background" id="config-b" >
+      <div class="config center-h" id="config-m">
+        <div class="col ">
+          <div class="row center-h"><h1>SELECT DIFFICULTY</h1></div>
+          <div class="row center-h">
+            <button class="btn" id="s-easy" >EASY</button>
+            <button class="btn" id="s-normal" >NORMAL</button>
+            <button class="btn" id="s-hard" >HARD</button>
+          </div>
+          <div class="row center-h"><h2>CUSTOM DIFFICULTY</h2></div>
+          <div class="col center">
+            <div class="input-group">
+              <h3>COLUMNS</h3>
+              <input type="number" id="cols" />
+            </div>
+            <div class="input-group">
+              <h3>ROWS</h3>
+              <input type="number" id="rows" />
+            </div>
+            <div class="input-group">
+              <h3>BOMBS</h3>
+              <input type="number" id="bombs" />
+            </div>
+            <div class="row center-h msg" id="msg">
+              BEGIN
+            </div>
+            <div class="row center-h mt-btn">
+              <button class="btn" id="s-custom">GENERATE</button>
+            </div>
+             
+            
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

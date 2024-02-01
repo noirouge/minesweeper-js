@@ -1,0 +1,150 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.mine-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    height: 40px;
+    width: 40px;
+    background: rgb(173, 173, 173);
+}
+
+.cover{
+    display:inline-block;
+    color:#444;
+    border:1px solid black;
+    background:gray;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    text-align: center;;
+}
+
+.question-box{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.flag-box{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.game{
+    margin: 20px;
+    display: flex;
+position: absolute;
+padding-right: 20px;
+    /* height: 98.5vh; */
+    align-items: center;
+    justify-content: center;
+}
+
+.config{
+    /* border: ; */
+    border-radius: 15px;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.2);
+    height: 800px;
+    width: 800px;
+    display: flex;
+    position: fixed;
+    background: azure;
+    z-index: 2;
+}
+
+.config-background{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.center-h{
+    justify-content: center;
+}
+
+.center-v{
+    align-items: center;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group input{
+    height: 25px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.btn{
+    height: 40px;
+    width: 250px;
+}
+
+.btn-new{
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mt-btn{
+    margin-top: 100px;
+}
+
+
+.center-between{
+    justify-content: space-between;
+}
+
+.msg{
+    margin-top: 70px;
+    font-size: 100px;
+}
+
+.counter-time{
+border: solid 1px black;
+display: flex;
+justify-content: center;
+width: 100%;
+font-size: 30px;
+color: white;
+background: black;
+}
+
+.counter-bomb{
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: black;
+    width: 100%;
+    font-size: 30px;
+}
